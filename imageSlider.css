@@ -1,0 +1,30 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+#slider,#navigation{
+    width: 70%;
+    margin: 0 auto;
+}
+#slider{
+    margin-bottom: 1rem;
+    border: 2px solid;
+    max-height: 500px;
+    overflow: hidden;
+}
+.image-conatiner{
+    display: flex;
+    /* flex-wrap: wrap; */
+}
+.image-conatiner img{
+    height: 100%;
+    width: 100%;
+    
+}
+a{
+    border: 3px solid black;
+    text-decoration: none;
+    padding: 0.5rem;
+    color: #000;
+}
